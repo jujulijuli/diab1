@@ -1,0 +1,19 @@
+---
+title: "diabetes"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(haven)
+library(dplyr)
+dia9017 <- read_sav("C:/Users/D2846964/Dropbox/Asesorias/ibai tamayo/FORMATO_ANCHO_Inicial_visitas_tratamientos_1990_2017.sav")
+
+names(select(dia9017,contains("TRAT"))
+
+```
+
